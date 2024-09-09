@@ -1,0 +1,43 @@
+@media (max-width: 980px) {
+  .maindiv {
+    /* background-color: rebeccapurple !important; */
+    flex-direction: column !important;
+    flex-wrap:nowrap !important;
+    height: 110vh !important;
+  }
+  .indiv1{
+    margin: 2rem 0rem 0rem 0rem !important;
+    width: 35rem !important;
+    height: 48vh !important;
+  }
+  .indiv1-1{
+    display: none!important;
+  }
+  .indiv2{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    width: 35rem !important;
+    height:50vh !important;
+  }
+  .indiv2 select , label{
+    margin-top: 1rem !important;
+  }
+}
+@media (max-width: 620px) {
+  .indiv1{
+    width: 20rem !important;
+    height: 30vh !important;
+  }
+  .indiv2{
+    width: 20rem !important;
+    height: 20rem !important;
+  }
+  .indiv2 select{
+    width: 5rem !important;
+    padding: 0%;
+    margin: 0%;
+  }
+ .indiv2 .selectDiv{
+    width: 5rem !important;
+  }
+}
